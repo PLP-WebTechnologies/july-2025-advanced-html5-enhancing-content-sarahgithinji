@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 - Enhanced HTML</title>
+</head>
+<body>
+    <h1>Ordered List</h1>
+    <ol>
+        <li type="1">Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+    </ol>
+    <h2>Un-ordered list</h2>
+    <ul>
+        <li>Friday</li>
+        </ul>
+    <h3>Definition List</h3>
+    <dl>
+       <dt>HTML</dt>
+       <db>Hypertext Markup Language</db>
+    </dl>
+    <h4>Nested Lists</h4>
+    <ol>
+        <li>Frontend Languages</li>
+        <ul>
+            <li>HTML</li>
+            <li>Css</li>
+            <li>Java Script</li>
+        </ul>
+        <li>Backend Languages</li>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>PHP</li>
+        </ul>
+    </ol>
+    <h5>Table</h5>
+         <table border="1">
+            <thead>
+             <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Country</th>
+             </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sarah</td>
+                    <td>Female</td>
+                    <td>Kenya</td>
+                </tr>
+                <tr>
+                    <td>Gerald</td>
+                    <td>Male</td>
+                    <td>South Africa</td>
+                </tr>
+            </tbody>
+         </table>
+    <h2>Embedding videos and audios</h2>
+    <video width="320" height="240" controls>
+        <source src="https://videos.pexels.com/video-files/13590492/13590492-hd_1920_1080_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <audio>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h2>Forms</h2>
+     <form action="" method=""> 
+           <label for="">Name: </label>
+           <input type="text" name="name" id="name" placeholder="Enter your Name">
+           <br> <br> 
+           <label>Email:</label>
+           <input type="email" name="email" id="emal" placeholder="Enter your email address">
+              <br> <br>
+              <label>Date of birth: </label>
+              <input type="date" name="dob" id="dob" > 
+                <br> <br>
+                <label>Age: </label>
+                <input type="number" name="age" id="age" placeholder="Enter your age">
+                <br> <br>
+                <label>Gender: </label>
+                <br>
+                <input type="radio" name="gender" value="Male">Male <br>
+                <input type="radio" name="gender" value="Female">Female <br>
+                 <br> <br>
+                 <input type="submit" value="Submit" name="submit" id="submit" >
+     </form>
+</body>
+</html>
